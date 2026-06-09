@@ -1,0 +1,7 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="50" r="18" fill="none" stroke="rosybrown" stroke-width="3"/>
+  <path d="M30 55 L55 40 L45 60 L42 52 Z" fill="rosybrown"/>
+  <text x="80" y="58" font-family="Arial" font-size="28" fill="rosybrown" font-weight="600">
+    SitePilot
+  </text>
+</svg>
