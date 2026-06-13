@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Get started with SitePilot today: submit your project details and receive a personalized quote fast.">
+        <meta name="robots" content="index, follow">
+        <title>Get Started — SitePilot</title>
+        <link rel="canonical" href="https://example.com/get-started.html">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Open Graph / Twitter -->
+        <meta property="og:site_name" content="SitePilot">
+        <meta property="og:title" content="Get Started — SitePilot">
+        <meta property="og:description" content="Get started with SitePilot today: submit your project details and receive a personalized quote fast.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://example.com/get-started.html">
+        <meta property="og:image" content="https://example.com/assets/logo.svg">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Get Started — SitePilot">
+        <meta name="twitter:description" content="Get started with SitePilot today: submit your project details and receive a personalized quote fast.">
+        <meta name="twitter:image" content="https://example.com/assets/logo.svg">
+
+        <!-- Structured data: Organization -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SitePilot",
+            "url": "https://example.com",
+            "logo": "https://example.com/assets/logo.svg"
+        }
+        </script>
+</head>
+<body class="get-started">
+    <header>
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="index.html" class="logo"><img src="assets/logo.svg" alt="SitePilot Logo"></a>
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="get-started.html" class="cta active">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+<!-- HERO ISLAND -->
+<section class="gs-hero">
+    <div class="gs-hero-card">
+        <h1>Start Your Project</h1>
+        <p>Choose from our packages or let us know your specific needs.</p>
+    </div>
+</section>
+
+<!-- FORM ISLANDS WRAPPER -->
+<section class="gs-wrapper">
+
+    <!-- LEFT ISLAND: INFO -->
+    <div class="gs-island info">
+        <h2>How it works</h2>
+
+        <div class="steps-container">
+            <details class="info-item">
+                <summary>
+                    <span class="step-number">1</span>
+                    <span class="step-title">Pick a package or service</span>
+                </summary>
+                <p class="step-description">Select from our predefined packages or choose specific services that match your needs.</p>
+            </details>
+
+            <details class="info-item">
+                <summary>
+                    <span class="step-number">2</span>
+                    <span class="step-title">We review your request</span>
+                </summary>
+                <p class="step-description">Our team carefully reviews your submission and understands your project requirements.</p>
+            </details>
+
+            <details class="info-item">
+                <summary>
+                    <span class="step-number">3</span>
+                    <span class="step-title">You get a response with next steps</span>
+                </summary>
+                <p class="step-description">We'll reach out with a tailored proposal, pricing, and timeline for your project.</p>
+            </details>
+        </div>
+
+        <hr>
+
+        <p class="small-note">
+            ⚡ <strong>Prefer direct contact?</strong> We respond fastest via email or WhatsApp.
+        </p>
+
+        <a href="https://wa.me/27760110441?text=Hi%20SitePilot%2C%20I%27m%20interested%20in%20your%20services" 
+           target="_blank" rel="noopener noreferrer"
+           class="whatsapp-cta">
+            <i class="fab fa-whatsapp"></i> Message us on WhatsApp
+        </a>
+    </div>
+
+    <!-- RIGHT ISLAND: FORM -->
+    <div class="gs-island">
+
+        <h2>Project Details</h2>
+
+        
+
+        <form action="https://formspree.io/f/mdavwnja" method="POST" class="lead-form">
+
+            <!-- COMBINED PACKAGE SELECT -->
+            <label>Choose a Package (optional)</label>
+            <select name="selected" id="packageSelect">
+                <option value="">Select a package</option>
+                <option>Starter Pack</option>
+                <option>Starter Plus</option>
+                <option>Business</option>
+                <option>Growth</option>
+            </select>
+
+            <label>Choose Services (optional)</label>
+            <div class="services-checklist">
+                <details class="service-dropdown">
+                    <summary>Web Development</summary>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Website Design & Development">
+                            <span>Website Design & Development</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Online Store Setup">
+                            <span>Online Store Setup</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Website Redesign">
+                            <span>Website Redesign</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Website Fixes & Updates">
+                            <span>Website Fixes & Updates</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Basic SEO Setup">
+                            <span>Basic SEO Setup</span>
+                        </label>
+                    </div>
+                </details>
+
+                <details class="service-dropdown">
+                    <summary>Social Media</summary>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Social Media Setup">
+                            <span>Social Media Setup</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Content Creation">
+                            <span>Content Creation</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Social Media Support">
+                            <span>Social Media Support</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Brand Style Design">
+                            <span>Brand Style Design</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="services" value="Basic Ad Setup">
+                            <span>Basic Ad Setup</span>
+                        </label>
+                    </div>
+                </details>
+            </div>
+
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="business" placeholder="Business Name">
+
+            <textarea name="message" placeholder="Tell us about your project..." rows="6"></textarea>
+
+            <button type="submit">Send Request</button>
+
+            <button type="button" class="whatsapp-btn"
+                onclick="if(validateForm()) sendToWhatsApp()">
+                Send via WhatsApp
+            </button>
+
+        </form>
+    </div>
+
+</section>
+
+</main>
+
+
+        <footer class="footer">
+
+        <div class="footer-container">
+
+        <div class="footer-brand">
+            <h2>SitePilot</h2>
+            <p>Modern digital presence for small businesses.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Company</h3>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Services</h3>
+            <a href="services.html">Web Development</a>
+            <a href="services.html">Social Media</a>
+            <a href="services.html">Branding</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Get in Touch</h3>
+            <p>Email: placeholder@gmail.com</p>
+            <p>WhatsApp: +27 76 011 0441</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 SitePilot. All rights reserved.</p>
+    </div>
+
+</footer>
+
+    
+
+ 
+<script src="script.js" defer></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const service = params.get("service");
+
+    if (!service) return;
+
+    document.querySelectorAll('input[name="services"]').forEach(cb => {
+        if (cb.value === service) {
+            cb.checked = true;
+
+            const details = cb.closest("details");
+            if (details) details.open = true;
+        }
+    });
+});
+</script>
+</body>
+</html>
